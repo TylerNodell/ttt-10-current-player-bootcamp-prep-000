@@ -3,7 +3,7 @@ def turn_count(board)
   board.each{|slot| if slot != " "
     counter += 1
   end }
-  puts counter
+  counter
 end
 
 def current_player()
